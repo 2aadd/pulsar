@@ -4,7 +4,7 @@
 echo "Installing Pulsar..."
 
 
-pip install psutil rich --break-system-packages # Ya da kullanıcı dizinine: --user
+pip install psutil rich --break-system-packages 
 
 
 sudo cp pulsar.py /usr/local/bin/pulsar
